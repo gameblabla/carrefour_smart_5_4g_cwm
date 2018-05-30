@@ -1,0 +1,1 @@
+./mkbootimg --kernel ../OG_RECOVERY/recovery-orig.img-kernel --ramdisk twrp_ramdisk.gz --cmdline "androidboot.console=ttyHSL0 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci androidboot.selinux=permissive" --pagesize 2048 --dt ../OG_RECOVERY/recovery-orig.img-dtb -o twrp_l690e_recovery.img

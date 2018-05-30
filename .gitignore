@@ -1,0 +1,4 @@
+releases/
+releases/*.img
+*.img
+*.gz

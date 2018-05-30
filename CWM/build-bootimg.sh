@@ -1,0 +1,1 @@
+./mkbootimg --kernel ../OG_RECOVERY/recovery-orig.img-kernel --ramdisk cwm_ramdisk.gz --cmdline "console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci" --pagesize 2048 --dt ../OG_RECOVERY/recovery-orig.img-dtb -o recovery_cwm_l690a.img
