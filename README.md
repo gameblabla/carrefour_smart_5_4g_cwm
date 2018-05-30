@@ -57,7 +57,7 @@ I actually found two of them working, even though ironically they were not compl
 
 I split the original recovery file and the "working" custom recovery image file and simply used the dtb & kernel file and merging relevant bits from the original ramdisk to the CWM one.
 
-The result is that display is not messed up, touchscreen & buttons work and i think flashing ZIP files should work as well.
+The result is that display is not messed up, touchscreen & buttons work and flashing ZIP files works as well. (With CWM recovery)
 
 Using the original DTB fixed the display issue and the kernel fixed the touchscreen.
 
